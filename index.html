@@ -3,101 +3,145 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Adeoye Emmanuel Ayomide (Charles) | Front-End Developer</title>
+  <title>Adeoye Emmanuel (Charles) | Web Developer</title>
   <link rel="stylesheet" href="style.css">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+<link rel="icon" type="image/png" href="images/favicon.png.jfif">
 </head>
 <body>
 
-  <!-- Navigation Bar -->
-  <nav class="navbar">
-    <div class="logo">C.A.</div>
-    <ul class="nav-links">
-      <li><a href="#home">Home</a></li>
-      <li><a href="#about">About</a></li>
-      <li><a href="#skills">Skills</a></li>
-      <li><a href="#projects">Projects</a></li>
-      <li><a href="#contact">Contact</a></li>
-    </ul>
-  </nav>
+  <header class="site-header">
+    <nav class="navbar">
+      <a href="#top" class="logo">Charles<span>.</span></a>
+      <ul class="nav-links">
+        <li><a href="#work">Work</a></li>
+        <li><a href="#references">References</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
 
-  <!-- Hero Section -->
-  <section id="home" class="hero">
-    <div class="hero-content">
-      <p class="greeting">Hey there, I'm</p>
-      <h1>Adeoye Emmanuel Ayomide.</h1>
-      <h2>People call me Charles. I build sleek, responsive websites.</h2>
-      <p class="bio-short">
-        I'm a Front-End Developer and aspiring Computer Engineer based in Nigeria. I love turning design ideas into smooth web experiences, recently wrapping up the Starhead Tech Bootcamp.
-      </p>
-    </div>
-  </section>
-
-  <!-- About Section -->
-  <section id="about" class="section">
-    <h2 class="section-title">My Story</h2>
-    <div class="about-content">
-      <p>
-        My official name is Adeoye Emmanuel Ayomide, but most people in the tech space and gaming community know me as Charles (or callme-charles).
-      </p>
-      <p>
-        I have a deep passion for technology and engineering. Through the Starhead Tech Bootcamp, I sharpened my front-end skills, building real-world projects from scratch with clean structure and responsive design. My main goal right now is to keep leveling up my web development stack while paving my path toward studying Computer Engineering.
-      </p>
-    </div>
-  </section>
-
-  <!-- Skills Section -->
-  <section id="skills" class="section">
-    <h2 class="section-title">Tools & Tech</h2>
-    <div class="skills-grid">
-      <div class="skill-card">HTML</div>
-      <div class="skill-card">CSS</div>
-      <div class="skill-card">JavaScript</div>
-      <div class="skill-card">GitHub</div>
-    </div>
-  </section>
-
-  <!-- Featured Projects Section -->
-  <section id="projects" class="section">
-    <h2 class="section-title">What I've Built</h2>
-    <div class="projects-grid">
-      
-      <!-- Project Card: Charles Kitchen -->
-      <div class="project-card">
-        <div class="project-info">
-          <h3>Charles Kitchen 🍲</h3>
-          <p>
-            A modern, responsive restaurant web application built around authentic Nigerian dishes with prices in Naira (₦). Designed with a stylish dark theme, smooth layout, and interactive ordering features.
-          </p>
-          <ul class="project-tech">
-            <li>HTML</li>
-            <li>CSS</li>
-            <li>JavaScript</li>
-            <li>GitHub</li>
-          </ul>
+  <main id="top">
+    <section class="hero">
+      <div class="hero-content">
+        <p class="eyebrow">Ilorin, Nigeria &bull; Web Developer</p>
+        <h1>Hi, I'm Charles I build fast, clean websites.</h1>
+        <p class="hero-sub">
+          I focus on turning layout designs into responsive, functional web pages using HTML, CSS, and JavaScript.
+        </p>
+        <div class="hero-actions">
+          <a href="#work" class="btn-primary">See My Projects</a>
+          <a href="#contact" class="btn-secondary">Get in Touch</a>
         </div>
       </div>
+      <div class="hero-img">
+    <img src="images/profile.png.jfif" alt="Adeoye Emmanuel Ayomide (Charles)">
+      </div>
+    </section>
 
-    </div>
-  </section>
+    <section id="work" class="section">
+      <div class="section-head">
+        <h2>What I've Built</h2>
+        <p>A few projects I've designed, coded, and shipped.</p>
+      </div>
 
-  <!-- Contact Section -->
-  <section id="contact" class="section">
-    <h2 class="section-title">Let's Connect</h2>
-    <p>Got a project idea, feedback, or just want to connect? Hit me up!</p>
-    <div class="social-links">
-      <a href="https://github.com/callme-charles" target="_blank">GitHub</a>
-      <a href="https://www.linkedin.com/" target="_blank">LinkedIn</a>
-    </div>
-  </section>
+      <div class="project-grid">
+        <article class="project-card">
+          <img src="images/kitchen.png" alt="Chsrles restaurant preview" class="project-thumb">
+          <div class="project-meta">HTML &bull; CSS &bull; JavaScript</div>
+          <h3>Charles Kitchen</h3>
+          <p>
+            A responsive restaurant web application featuring a clean menu layout, interactive elements, and modern UI design.
+          </p>
+          <div class="project-links">
+            <a href="https://callme-charles.github.io/Restaurant-website/" target="_blank">GitHub Profile &rarr;</a>
+          </div>
+        </article>
 
-  <!-- Footer -->
-  <footer>
-    <p>&copy; 2026 Adeoye Emmanuel Ayomide (Charles). Designed & built from scratch.</p>
+        <article class="project-card">
+          <div class="project-meta">HTML &bull; CSS &bull; Git</div>
+          <h3>Developer Portfolio v1</h3>
+          <p>
+            Built and deployed as part of my Starhead Tech Bootcamp capstone. Focused on clean layout structure, mobile responsiveness, and version control.
+          </p>
+          <div class="project-links">
+            <a href="https://callme-charles.github.io/portfolio/" target="_blank">GitHub Profile &rarr;</a>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section id="references" class="section">
+      <div class="section-head">
+        <h2>References</h2>
+        <p>Mentors and platforms that shaped my technical skills.</p>
+      </div>
+
+      <div class="ref-grid">
+        <div class="ref-card">
+          <h3>Starhead Tech Bootcamp</h3>
+          <p class="ref-role">Technical Training &bull; Web Development</p>
+          <p class="ref-note">
+            Provided foundational training in web development, Git workflows, and project deployment.
+          </p>
+          <p class="ref-contact">Contact available upon request</p>
+        </div>
+
+        <div class="ref-card">
+          <h3>W3Schools</h3>
+          <p class="ref-role"><a href="https://www.w3schools.com/" target="_blank" style="color: #38bdf8; text-decoration: underline;">w3schools.com</a></p>
+          <p class="ref-note">
+            The reference platform where I independently learned and practiced my CSS and JavaScript core concepts.
+          </p>
+          <p class="ref-contact">Self-paced learning resource</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="section contact-section">
+      <div class="section-head">
+        <h2>Contact Me</h2>
+        <p>Need a website built or want to collaborate on a project? Reach out directly.</p>
+      </div>
+
+      <div class="contact-layout">
+        <div class="contact-details">
+          <div class="detail-item">
+            <strong>Email</strong>
+            <a href="mailto:charlesadeoye4@gmail.com">charlesadeoye4@gmail.com</a>
+          </div>
+          <div class="detail-item">
+            <strong>Phone / WhatsApp</strong>
+            <a href="tel:+2348103259257">+234 810 325 9257</a>
+          </div>
+          <div class="detail-item">
+            <strong>GitHub</strong>
+            <a href="https://github.com/callme-charles" target="_blank">github.com/callme-charles</a>
+          </div>
+          <div class="detail-item">
+            <strong>Location</strong>
+            <span>Ilorin, Kwara State, Nigeria</span>
+          </div>
+        </div>
+
+        <form class="contact-form" action="mailto:charlesadeoye4@gmail.com" method="POST" enctype="text/plain">
+          <label for="name">Name</label>
+          <input type="text" id="name" name="name" placeholder="Your name" required>
+
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" placeholder="you@example.com" required>
+
+          <label for="message">Message</label>
+          <textarea id="message" name="message" rows="4" placeholder="Tell me about what you're working on..." required></textarea>
+
+          <button type="submit" class="btn-primary">Send Message</button>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>&copy; 2026 Adeoye Emmanuel (Charles).</p>
   </footer>
 
-  <script src="script.js"></script>
 </body>
 </html>
